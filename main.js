@@ -12,3 +12,9 @@ function createWindow() {
 app.whenReady().then(() => {
     createWindow();
 });
+
+app.on("window-all-closed", () => {
+    if (["win32", "linux"].includes(process.platform)) {
+        app.quit();
+    }
+});
