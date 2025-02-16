@@ -9,7 +9,7 @@
   },
   "author": "",
   "license": "ISC",
-  "type": "module",
+  "type": "commonjs",
   "devDependencies": {
     "electron": "^34.2.0"
   }
